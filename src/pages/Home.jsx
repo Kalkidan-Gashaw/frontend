@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 import axios from "axios";
 import { Link, useNavigate } from "react-router-dom";
 import { CiSquarePlus } from "react-icons/ci";
-import BooksTable from "../components/home/BooksTable";
+import BooksTable from "../components/Home/BooksTable";
 import "../App.css";
 
 const Home = () => {
